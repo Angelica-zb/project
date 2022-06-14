@@ -1,0 +1,80 @@
+/*@import "./reset.css";*/
+
+@import "./settings.css";
+@import "./fonts.css";
+body {
+    max-width: 610px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+a {
+    font-size: 17px;
+}
+
+input {
+    width: 100px;
+    height: 40px;
+    white-space: normal;
+    text-transform: capitalize;
+    color: blue;
+    text-decoration: underline;
+}
+
+.button {
+    width: 30px;
+    position: fixed;
+    left: 500px;
+    top: 25px;
+}
+
+.boxer {
+    display: flex;
+}
+
+.vid {
+    background-color: rgb(187, 255, 0);
+    box-sizing: border-box;
+    flex-grow: 1;
+    margin: 2px;
+    padding: 10px;
+}
+
+.box {
+    flex-grow: 4;
+    margin: 2px;
+}
+
+.text {
+    font-size: 18px;
+    display: flex;
+    flex-grow: 1;
+    margin: 2px;
+}
+
+.text img {
+    float: left;
+    margin: 7px 7px 7px 0;
+}
+
+ul {
+    margin: 0;
+    bottom: 0;
+}
+
+.slogon {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: blue;
+    background-color: aqua;
+    box-sizing: border-box;
+    max-width: 610px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
